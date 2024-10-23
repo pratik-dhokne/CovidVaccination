@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUserNamebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etUserDobbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etUserMobilebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etSlotNamebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Name"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etSlotAddressbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Address"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etVaccineNamebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vaccine Name"
+        android:inputType="text"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etDatebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Appointment Date"
+        android:inputType="text"
+        android:focusable="false"/>
+
+</LinearLayout>

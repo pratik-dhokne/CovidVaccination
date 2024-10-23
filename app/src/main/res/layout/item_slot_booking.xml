@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/backgroundcrop">
+
+    <TextView
+        android:id="@+id/tvHospitalName"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvHospitalAddress"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalVaccines"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvVaccineNameAA"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

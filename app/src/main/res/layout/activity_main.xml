@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/covidposter"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="Welcome to Covid Vaccination Application"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#5C5C5C"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/aboutus"
+                android:layout_margin="20dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/aboutcovidunscreen"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="About \n Corona Virus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:id="@+id/bookAppointment"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="110dp"
+                    android:src="@drawable/apppanim"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Appointment"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/precautions"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/precautionsunscreen"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="Precautions" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:id="@+id/nearVaccinationCenter"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="110dp"
+                    android:src="@drawable/seaechhostpital"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="Near,Vaccination Hospital" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:id="@+id/accoutsection"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/userprofile"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Account"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/aarogyasetu1"
+                android:layout_margin="20dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="110dp"
+
+                    android:src="@drawable/aarougy"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Aarogya Setu" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:id="@+id/logoutuser"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/logout_usr"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Log Out"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:id="@+id/history"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="110dp"
+                    android:src="@drawable/appointmenthistoryuser"
+                    tools:ignore="MissingClass" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Appointment History" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

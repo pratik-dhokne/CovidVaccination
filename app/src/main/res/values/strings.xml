@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Covid Vaccination</string>
+
+    <string name="linktowho">
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">* Advice for Public</a>
+    </string>
+
+    <string name="linktomyth">
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">* Myth Busters</a>
+    </string>
+
+    <string name="linktoqa">
+        <a href="https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19">* Questions and Answer</a>
+    </string>
+
+    <string name="linktosituation">
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">* Situations reports</a>
+    </string>
+
+    <string name="linktoandroidaarogyasetu">
+        <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu">Download for Android</a>
+    </string>
+
+
+    <string name="linktoiosaarogyasetu">
+        <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu">Download for IOS</a>
+    </string>
+
+
+</resources>

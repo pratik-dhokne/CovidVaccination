@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Hospital Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etStateUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="State"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUpdateAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Hospital Address"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUpdateDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="District"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUpdateTaluka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Taluka"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUpdateTotalVaccines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Total Vaccines"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUpdatePinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Pin Code"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etUpdateVaccineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Vaccine Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903252165757",
+    "project_id": "covidvaccination-app",
+    "storage_bucket": "covidvaccination-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903252165757:android:e7097ea6b7bad54de61d14",
+        "android_client_info": {
+          "package_name": "com.pratik.covidvaccination"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAazzYLXoPEiOlh6R4XdZq0X--QNRr4r0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

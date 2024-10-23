@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".admin.AddSlotAdminActivity">
+
+    <EditText
+        android:id="@+id/etHospitalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Hospital Name" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etHospitalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Hospital Address" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="District"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"/>
+
+
+    <EditText
+        android:id="@+id/etPinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:inputType="number"
+        android:hint="Enter Pincode" />
+
+    <EditText
+        android:id="@+id/etVaccineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Vaccine Name" />
+
+    <EditText
+        android:id="@+id/etTaluka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Taluka" />
+
+    <EditText
+        android:id="@+id/etTotalVaccines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:hint="Total Vaccines Available"
+        android:inputType="number" />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Submit" />
+</LinearLayout>

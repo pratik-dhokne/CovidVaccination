@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/backgroundcrop"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tvPatientNameAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#5D066C"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Patient Name" />
+
+    <TextView
+        android:id="@+id/tvSlotIdAdmin"
+        android:textColor="#850808"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Slot ID"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatusAdmin"
+        android:textColor="#850808"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Slot ID"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/tvHospitalNameAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="User Name" />
+
+
+    <TextView
+        android:id="@+id/tvContactNoAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Mobile No" />
+
+    <TextView
+        android:id="@+id/tvUserIdAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="User Id" />
+
+    <TextView
+        android:id="@+id/tvvaccineNameAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Vaccine Name" />
+
+    <TextView
+        android:id="@+id/tvDistrictAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="District" />
+
+    <TextView
+        android:id="@+id/tvPinCodeAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Pin Code" />
+
+    <Button
+        android:id="@+id/btnMarkVaccinated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Vaccinated" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="20sp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundcrop"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/tvHospitalName"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hospital Name"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#ff5c00"
+                android:textStyle="bold"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvHospitalName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hospital Name"-->
+<!--                android:textColor="#E60C0C"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_below="@id/tvHospitalNameLabel"-->
+<!--                android:layout_marginStart="8dp"/>-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvHospitalAddressLabel"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvHospitalAddress"
+                android:fontFamily="@font/poppins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hospital Address"
+                android:layout_toEndOf="@id/tvHospitalAddressLabel"
+                android:layout_marginStart="8dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvDistrictLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="District:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDistrict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/tvDistrictLabel"
+                android:fontFamily="@font/poppins"
+                android:text="District" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTalukaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Taluka:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTaluka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/tvTalukaLabel"
+                android:fontFamily="@font/poppins"
+                android:text="Taluka" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvVaccineNamelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Vaccine Name:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVaccineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/tvVaccineNamelabel"
+                android:fontFamily="@font/poppins"
+                android:text="Taluka" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPinCodelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="PinCode:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPinCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/tvPinCodelabel"
+                android:fontFamily="@font/poppins"
+                android:text="PinCode" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTotalVaccinesLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Total Vaccines Available:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalVaccines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/tvTotalVaccinesLabel"
+                android:fontFamily="@font/poppins"
+                android:text="Total Vaccines Available" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/corona"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:textSize="35dp"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#CC0909"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nThe best way to prevent and slow down transmission is to be well informed about the disease and how the virus spreads. Protect yourself and others from infection by staying at least 1 metre apart from others, wearing a properly fitted mask, and washing your hands or using an alcohol-based rub frequently. Get vaccinated when it’s your turn and follow local guidance."
+        android:fontFamily="@font/poppins"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="\nThe virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. It is important to practice respiratory etiquette, for example by coughing into a flexed elbow, and to stay home and self-isolate until you recover if you feel unwell." />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_height="wrap_content"
+            android:text="Stary Informed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:id="@+id/precau"
+            android:fontFamily="@font/poppins"
+            android:textColor="#0C23A1"
+            android:layout_height="wrap_content"
+            android:text="* Precautions"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:id="@+id/aboutpublic"
+            android:fontFamily="@font/poppins"
+            android:textColor="#0C23A1"
+            android:layout_height="wrap_content"
+            android:text="@string/linktowho"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:id="@+id/myth"
+            android:fontFamily="@font/poppins"
+            android:textColor="#0C23A1"
+            android:layout_height="wrap_content"
+            android:text="@string/linktomyth"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:id="@+id/questionsans"
+            android:fontFamily="@font/poppins"
+            android:textColor="#0C23A1"
+            android:layout_height="wrap_content"
+            android:text="@string/linktoqa"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:id="@+id/situations"
+            android:fontFamily="@font/poppins"
+            android:textColor="#0C23A1"
+            android:layout_height="wrap_content"
+            android:text="@string/linktosituation"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

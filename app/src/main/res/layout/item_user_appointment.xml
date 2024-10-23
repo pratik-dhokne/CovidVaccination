@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/backgroundcrop"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name"
+        android:id="@+id/tvHospitalNameuser"
+        android:textColor="#610606"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvSlotIduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Slot ID"
+        android:textColor="#05554E"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPatientNameuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvHospitalAddressuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="User Name" />
+
+    <TextView
+        android:id="@+id/tvVaccineNameuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Date" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:backgroundTint="#DCC2C2"
+            android:background="@drawable/backgroundcrop">
+
+
+            <TextView
+                android:textColor="#420303"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:gravity="center"
+                android:id="@+id/tvstatus"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
